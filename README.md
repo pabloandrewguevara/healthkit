@@ -34,10 +34,12 @@ healthkit/
 │   └── logging_config.py    # Logging configuration
 ├── scripts/                 # Standalone scripts
 │   └── refresh.py           # Main script for data processing
-├── config/                  # Configuration files
-├── logs/                    # Log files
+├── config/                  # Configuration files (excluded from version control)
+├── logs/                    # Log files (excluded from version control)
 └── .gitignore               # Git ignore file
 ```
+
+> **Note**: The `config/` and `logs/` directories are excluded from version control. You'll need to create these 
 
 ## Features
 
