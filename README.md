@@ -26,17 +26,17 @@ A Python-based ETL (Extract, Transform, Load) pipeline for processing Apple Heal
 
 ```
 healthkit/
-├── src/                    # Core application code
-│   ├── data_processing.py  # Health and workout data processing logic
-│   └── config.py          # Configuration management
-├── utils/                  # Utility modules
-│   ├── bigquery_utils.py  # BigQuery data upload utilities
-│   └── logging_config.py  # Logging configuration
-├── scripts/               # Standalone scripts
-│   └── refresh.py        # Main script for data processing
-├── config/               # Configuration files
-├── logs/                # Log files
-└── .gitignore          # Git ignore file
+├── src/                     # Core application code
+│   ├── data_processing.py   # Health and workout data processing logic
+│   └── config.py            # Configuration management
+├── utils/                   # Utility modules
+│   ├── bigquery_utils.py    # BigQuery data upload utilities
+│   └── logging_config.py    # Logging configuration
+├── scripts/                 # Standalone scripts
+│   └── refresh.py           # Main script for data processing
+├── config/                  # Configuration files
+├── logs/                    # Log files
+└── .gitignore               # Git ignore file
 ```
 
 ## Features
@@ -61,26 +61,6 @@ healthkit/
 - Google Cloud Platform account with BigQuery access
 - Apple Health data export (XML format)
 
-## Installation
-
-1. Clone the repository:
-```bash
-git clone [repository-url]
-cd healthkit
-```
-
-2. Install required dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-3. Set up Google Cloud credentials:
-- Create a service account in Google Cloud Console
-- Download the JSON key file
-- Set the environment variable:
-```bash
-export GOOGLE_APPLICATION_CREDENTIALS="path/to/your/service-account-key.json"
-```
 
 ## Usage
 
