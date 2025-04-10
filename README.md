@@ -2,26 +2,6 @@
 
 A Python-based ETL (Extract, Transform, Load) pipeline for processing Apple HealthKit data. This project extracts health and workout data from Apple Health exports, transforms it into a structured format, and loads it into BigQuery for analysis and visualization.
 
-## ETL Pipeline Overview
-
-### Extract
-- Parses Apple HealthKit XML export files
-- Extracts raw health and workout records
-- Handles various data types and formats
-
-### Transform
-- Processes and cleans raw data
-- Calculates derived metrics and aggregates
-- Normalizes data formats
-- Handles timezone conversions
-- Combines related data points
-
-### Load
-- Validates transformed data
-- Uploads processed data to BigQuery
-- Maintains data integrity
-- Handles incremental updates
-
 ## Project Structure
 
 ```
