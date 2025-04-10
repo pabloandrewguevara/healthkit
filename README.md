@@ -21,22 +21,6 @@ healthkit/
 
 > **Note**: The `config/` and `logs/` directories are excluded from version control.
 
-## Features
-
-- ETL pipeline for Apple HealthKit data
-- Extracts and processes health metrics including:
-  - Sleep analysis (Core, Deep, REM sleep)
-  - Calorie tracking (Active, Basal, Total)
-  - Heart rate data
-  - Workout data
-- Supports various workout types:
-  - Strength Training
-  - LISS Cardio
-  - HIIT Cardio
-  - Core Training
-- Calculates daily and weekly aggregates
-- Loads processed data to BigQuery
-
 ## Prerequisites
 
 - Python 3.x
