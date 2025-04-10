@@ -39,7 +39,7 @@ healthkit/
 └── .gitignore               # Git ignore file
 ```
 
-> **Note**: The `config/` and `logs/` directories are excluded from version control. You'll need to create these 
+> **Note**: The `config/` and `logs/` directories are excluded from version control.
 
 ## Features
 
@@ -51,8 +51,8 @@ healthkit/
   - Workout data
 - Supports various workout types:
   - Strength Training
-  - Running
-  - HIIT
+  - LISS Cardio
+  - HIIT Cardio
   - Core Training
 - Calculates daily and weekly aggregates
 - Loads processed data to BigQuery
